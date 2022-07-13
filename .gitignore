@@ -1,5 +1,6 @@
 # Diretórios | Directories
-/.vscode/
+*.vscode*
+*__MACOSX*
 
 # Arquivos   | Files
 *.zip
