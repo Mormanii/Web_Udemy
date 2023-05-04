@@ -24,3 +24,7 @@ body {
 #sobre > h4 {
     color: #D4D3BE;
 }
+
+#sobre > img.campanha {
+    border: 10px solid #D4D3BE;
+}
