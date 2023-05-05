@@ -1,0 +1,46 @@
+#principal {
+    border: 5px solid red;
+
+    background: green;
+}
+
+.conteudo {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 10px;
+
+    float: left;
+    /* float: right; */
+    /* float: none; */
+
+    background-color: blue;
+}
+
+.conteudo-1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 10px;
+
+    float: left;
+
+    background-color: red;
+}
+
+.conteudo-0 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 10px;
+
+    background-color: red;
+}
+
+/* Essa propriedade limpa o fluxo flutuante para que outros conteúdos não se posicionem em volta dos elementos flutuantes. */
+.clear {
+    /* clear: left; */
+    /* clear: right; */
+    clear: both;
+    /* clear: none; */
+}

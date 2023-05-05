@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="./css/41-index.css">
+
+        <title>Elementos Flutuantes</title>
+    </head>
+
+    <body>
+
+        <!--
+            Os elementos normalmente são apresentados em um fluxo padrão.
+
+            Ao usar a propriedade float no CSS alterasse o fluxo desse elemento e
+            que acaba sobrepondo os elementos logo após ao flutuante.
+
+            Caso não haja mais espaço na horizontal para o elemento flutar, ele se
+            posiciona na linha abaixo.
+
+            Caso os elementos flutantes estejam dentro de um outro elemento e não haja
+            nenhum elemento que limpe esse novo fluxo, as formatações não serão muito
+            visíveis.
+
+            Pois como os elementos flutantes estão em outro fluxo e não há outro conteúdo
+            para preencher o fluxo padrão "vazio", então a altura desse outro elemento será zero.
+        -->
+        <div id="principal">
+            <div class="conteudo">Conteúdo 1</div>
+            <div class="conteudo">Conteúdo 2</div>
+            <div class="conteudo">Conteúdo 3</div>
+
+            <p class="clear">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, sed dignissimos. Cumque illo repellat officiis eum, quos nulla
+                consectetur accusantium a voluptatem ipsam sapiente aliquid laudantium beatae perspiciatis vel deserunt dolor voluptatum architecto
+                provident soluta. Consequuntur laborum inventore illum, doloribus adipisci molestias perspiciatis rerum neque, labore voluptatem maxime
+                similique optio aliquam est repellendus quas recusandae vel beatae dignissimos, quaerat explicabo eum voluptate tempore?
+            </p>
+
+            <!-- <div class="clear"></div> -->
+        </div>
+
+        <!-- <div class="conteudo-0">Conteúdo 4</div> -->
+
+        <p class="clear">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, sed dignissimos. Cumque illo repellat officiis eum, quos nulla
+            consectetur accusantium a voluptatem ipsam sapiente aliquid laudantium beatae perspiciatis vel deserunt dolor voluptatum architecto
+            provident soluta. Consequuntur laborum inventore illum, doloribus adipisci molestias perspiciatis rerum neque, labore voluptatem maxime
+            similique optio aliquam est repellendus quas recusandae vel beatae dignissimos, quaerat explicabo eum voluptate tempore? Laborum,
+            possimus. Eius eos hic molestiae quibusdam, aut quae? Veritatis qui neque sit facilis natus repudiandae omnis non vel harum, ratione
+            optio blanditiis voluptatum recusandae, nisi ipsum nihil, delectus quibusdam at laudantium. Accusantium tenetur est doloribus ad!
+        </p>
+
+    </body>
+
+</html>
