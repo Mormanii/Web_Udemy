@@ -1,0 +1,45 @@
+/* Modelo de Caixa */
+.conteudo {
+    width: 150px;
+
+    /* Padding contabiliza na largura ou altura final do elemento. */
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+
+    /*          Top  Bott Left Right */
+    /* padding: 20px 15px 10px 5px; */
+
+    /* 20px em todos lados */
+    padding: 20px;
+
+    /* Top-Bottom / Left-Right */
+    /* padding: 20px 5px; */
+
+    /* Mesmas definições que o padding acima. */
+    margin: 10px;
+
+    border: 1px solid red;
+}
+
+.conteudo2 {
+    width: 150px;
+    /* margin: 50px; */
+    margin: 5px;
+
+    border: 1px solid red;
+}
+
+/* Notícia */
+#noticia {
+    padding: 10px;
+    border: 1px solid gray;
+
+    background-color: #F9F9F9;
+}
+
+h2 {
+    border: 1px solid red;
+    margin: 0px;
+}
